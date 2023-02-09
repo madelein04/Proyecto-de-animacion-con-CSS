@@ -363,27 +363,24 @@ body{
 }
 
 .modalContentClose {
-    width: 36px;
-    position: absolute;
-    top: 13.5vw;
-    left: 74.5vw;
-    z-index: 3;
+    width: 30px;
     cursor: pointer;
+    margin-left: 51vw ;
 }
 
 .cards {
     position: relative;
     width: 100%;
     height: 100%;
-    margin: 0;
+
 }
 
 .card {
     position: absolute;
     left: 0;
     right: 0;
-    margin: 0 auto; 
-    transition: transform 0.5s ease;
+    margin: 0 auto;
+    transition: transform 0.5s ease-in-out;
     cursor: pointer;
     display: grid;
     place-items: center;
@@ -398,7 +395,7 @@ body{
 .cards p {
     font-size: 20px;
     font-weight: 400;
-    margin: 2vw 0 1vw 5vw;
+    margin: 0 0 1vw 5vw;
 }
 
 input[type="radio"] {
