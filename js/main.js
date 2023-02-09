@@ -38,6 +38,7 @@ closeButton.addEventListener("click", () => {
 
 function tanjirou() {
     cards.innerHTML = `
+        <p>Tanjirou Kamado</p>
         <label for="radio-1" id="card-1" class="card">
             <img src="./img/ta1.jpg" alt=""/>
         </label>
@@ -52,6 +53,7 @@ function tanjirou() {
 
 function inosuke() {
     cards.innerHTML = `
+        <p>Inosuke Hashibira</p>
         <label for="radio-1" id="card-1" class="card">
             <img src="./img/ino1.webp" alt=""/>
         </label>
@@ -66,6 +68,7 @@ function inosuke() {
 
 function zenitsu() {
     cards.innerHTML = `
+        <p>Zenitsu Agatsuma</p>
         <label for="radio-1" id="card-1" class="card">
             <img src="./img/zen1.jpg" alt=""/>
         </label>
@@ -80,6 +83,7 @@ function zenitsu() {
 
 function nezuko() {
     cards.innerHTML = `
+        <p>Nezuco Kamado</p>
         <label for="radio-1" id="card-1" class="card">
             <img src="./img/nez1.webp" alt=""/>
         </label>
